@@ -11,7 +11,7 @@ NodeJS information that return the emplooyes data as a json
 
 <br />
 <p align="center">
-  <a href="https://github.com/SaulPuentes/employee-csv-node">
+  <a href="https://github.com/SaulPuentes/employees-csv-node">
     <img src="./images/enroute.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -20,14 +20,14 @@ NodeJS information that return the emplooyes data as a json
   <p align="center">
     This project is part of the <b>Enroute | Rockstars G5</b> apprenticeship program 2020.
     <br />
-    <a href="https://github.com/SaulPuentes/employee-csv-node"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/SaulPuentes/employees-csv-node"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://repl.it/@SaulPuentes/employee-csv-node">View Demo</a>
+    <a href="https://repl.it/@SaulPuentes/employees-csv-node">View Demo</a>
     ·
-    <a href="https://github.com/SaulPuentes/employee-csv-node/issues">Report Bug</a>
+    <a href="https://github.com/SaulPuentes/employees-csv-node/issues">Report Bug</a>
     ·
-    <a href="https://github.com/SaulPuentes/employee-csv-node/issues">Request Feature</a>
+    <a href="https://github.com/SaulPuentes/employees-csv-node/issues">Request Feature</a>
   </p>
 </p>
 
@@ -48,7 +48,6 @@ NodeJS information that return the emplooyes data as a json
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#known-issues">Known Issues</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -98,85 +97,21 @@ installations.
 
 1. Clone the repository.
    ```sh
-   git clone https://github.com/SaulPuentes/employee-csv-node.git
+   git clone https://github.com/SaulPuentes/employees-csv-node.git
    ```
 2. Change to the newly cloned directory.
    ```sh
-   cd employee-csv-node/
+   cd employees-csv-node/
    ```
 3. Run the next command. See <a href="#usage">Usage</a> to learn how to use it.
    ```sh
-   node bin/employeeQuery.js <ID> <PROPERTY_1>
+   node index.js <ID> <PROPERTY_1>
    ```
-
-**NOTE**: To run the app as a shell script follow the next steps
-
-1. Change the file permision.
-  ```sh
-  chmod +x bin/employeeQuery.js
-```
-
-2. Run the commands wthout `node` and by prepending the `file_name` with `./` 
-    (See the `.` dot before the slash `/`)
-  ```sh
-  bin/employeeQuery.js <ID> <PROPERTY_1>
-  ```
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-```sh
-node bin/employeeQuery.js <ID> <PROPERTY_1> <PROPERTY_2> ...
-```
-
-- The `ID` values goes from `1` to `10`.
-- The properties to choose from are:
-  - `id`
-  - `first_name`
-  - `email`
-  - `ip_address`
-
-- Search for specific user by `ID` number.
-  ```sh
-  # Input
-  node bin/employeeQuery.js 1
-
-  # Output
-  {
-    id: '1',
-    first_name: 'Giorgia',
-    last_name: 'Tyne',
-    email: 'gtyne0@deliciousdays.com',
-    ip_address: '176.146.145.226'
-  }
-  ```
-
-- Search for specific user by `property` value.
-  ```sh
-  # Input
-  node bin/employeeQuery.js Giorgia last_name
-
-  # Output 
-  { first_name: 'Giorgia', last_name: 'Tyne' }
-  ```
-
-- Search for specific User data with more than one arguments.
-  ```sh
-  # Input
-  node bin/employeeQuery.js Giorgia last_name email
-
-  # Output 
-  {
-    first_name: 'Giorgia',
-    last_name: 'Tyne',
-    email: 'gtyne0@deliciousdays.com'
-  }
-  ```
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/SaulPuentes/employee-csv-node/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/SaulPuentes/employees-csv-node/issues) for a list of proposed features (and known issues).
 
 <!-- KNOWN ISSUES -->
 ## Known Issues
@@ -201,7 +136,7 @@ be learn, inspire, and create. Any contributions you make are
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/jubaan/employee-csv-node/blob/main/LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/SaulPuentes/employees-csv-node/blob/main/LICENSE.md) for more information.
 
 <!-- CONTACT -->
 ## Contact
@@ -226,14 +161,14 @@ Project Link: [Employee CSV Node](https://github.com/SaulPuentes/epmloyee-csv-no
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [rockstars-shield]: https://img.shields.io/badge/Rockstar%20G5-Enroute-yellow?style=for-the-badge
 [rockstars-url]: https://www.enroutesystems.com
-[contributors-shield]: https://img.shields.io/github/contributors/jubaan/employee-csv-node.svg?style=for-the-badge
-[contributors-url]: https://github.com/SaulPuentes/employee-csv-node/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/SaulPuentes/employee-csv-node.svg?style=for-the-badge
-[forks-url]: https://github.com/SaulPuentes/employee-csv-node/network/members
-[stars-shield]: https://img.shields.io/github/stars/SaulPuentes/employee-csv-node.svg?style=for-the-badge
-[stars-url]: https://github.com/SaulPuentes/employee-csv-node/stargazers
-[issues-shield]: https://img.shields.io/github/issues/SaulPuentes/employee-csv-node.svg?style=for-the-badge
-[issues-url]: https://github.com/SaulPuentes/employee-csv-node/issues
+[contributors-shield]: https://img.shields.io/github/contributors/SaulPuentes/employees-csv-node.svg?style=for-the-badge
+[contributors-url]: https://github.com/SaulPuentes/employees-csv-node/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/SaulPuentes/employees-csv-node.svg?style=for-the-badge
+[forks-url]: https://github.com/SaulPuentes/employees-csv-node/network/members
+[stars-shield]: https://img.shields.io/github/stars/SaulPuentes/employees-csv-node.svg?style=for-the-badge
+[stars-url]: https://github.com/SaulPuentes/employees-csv-node/stargazers
+[issues-shield]: https://img.shields.io/github/issues/SaulPuentes/employees-csv-node.svg?style=for-the-badge
+[issues-url]: https://github.com/SaulPuentes/employees-csv-node/issues
 [license-shield]: https://img.shields.io/badge/license-MIT-red?style=for-the-badge
 [license-url]: https://github.com/SaulPuentes/employee-csv-express/blob/main/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
